@@ -120,8 +120,10 @@ class Login(QtWidgets.QWidget):
     def closeEvent(self, event):
         print("bye")
         pygame.mixer.music.unload()
-        os.remove('temp_voice.wav')
-
+        temp_file ='temp_voice.wav'
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+            
 class pdfCoverter:
 
     def __init__(self, filepath):
@@ -142,7 +144,8 @@ class pdfCoverter:
     def readPage(self, pg):
         temp_file ='temp_voice.wav'
         pygame.mixer.music.unload()
-        os.remove(temp_file)
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
         self.save_single_audio(pg, temp_file)
         self.data1=temp_file
         self.play_the_songs()
@@ -150,7 +153,8 @@ class pdfCoverter:
     def readPages(self, start, end):
         temp_file ='temp_voice.wav'
         pygame.mixer.music.unload()
-        os.remove(temp_file)
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
         self.save_audio_file(start, end, temp_file)
         self.data1=temp_file
         self.play_the_songs()
