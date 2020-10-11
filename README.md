@@ -11,8 +11,8 @@ Features Offer:
 
 [//]: # (Image References)
 
-[image1]: ./README_media/mainmenu1.png "Screenshot of main menu before loading PDF file"
-[image2]: ./README_media/mainmenu2.png "Screenshot of main menu after loading PDF file"
+[image1]: ./README_media/mainmenu1.PNG "Screenshot of main menu before loading PDF file"
+[image2]: ./README_media/mainmenu2.PNG "Screenshot of main menu after loading PDF file"
 ---
 ## Preview
 
