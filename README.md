@@ -13,8 +13,8 @@ Features Offer:
 
 [image1]: ./README_media/mainmenu1.PNG "Screenshot of main menu before loading PDF file"
 [image2]: ./README_media/mainmenu2.PNG "Screenshot of main menu after loading PDF file"
----
 
+---
 ## Preview
 
 ### 1. Main menu before loading PDF file
